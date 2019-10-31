@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>北經盃比賽報名表單</title>
+</head>
+<body>
+<div>
+    <img src="%E5%8C%97%E7%B6%93%E5%B0%81%E9%9D%A2.png" width="100%">
+    <h1 align=center>北經盃報名表單</h1>
+</div>
+
+<form method="get" action="Server.html">
+          
+          
+ <fieldset>
+  <legend>基本資訊:</legend>
+  名字: <input type="text"><br/>
+  學號: <input type="text"><br/>
+  生日: <input type="text"><br/>
+  性別: <input type="radio" name="gender" value="male" checked>男
+  <input type="radio" name="gender" value="female">女
+  <input type="radio" name="gender" value="other"> 其他
+  <br/>
+  報名學校
+
+ <select name="cars">
+   <option value="ntpu">臺北大學(ntpu)</option>
+   <option value="ntu">台灣大學(ntu)</option>
+   <option value="nccu">政治大學(nccu)</option>
+   <option value="scu">東吳大學(scu)</option>
+   <option value="other">其他</option>
+ </select>
+ <br/>
+ </fieldset>
+
+ 
+
+ <p>參賽註明:</p><textarea name="boom" rows="5" cols="30"></textarea>
+ <br/>
+ <input type="submit" />
+</form>
+
+</body>
+</html>
